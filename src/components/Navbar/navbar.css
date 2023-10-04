@@ -1,0 +1,20 @@
+nav {
+  margin-top: 40px;
+}
+ul {
+  display: flex;
+  gap: 35px;
+  padding: 0;
+}
+
+li .nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.nav-menu a:hover,
+.nav-menu .active {
+  color: #05cbd6;
+}
