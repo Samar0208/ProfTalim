@@ -9,7 +9,7 @@ function profName() {
         <div className="logo">
           <NavLink to="/" className="logo-box">
             <div className="logo-img">
-              <img src={logowhite} />
+              <img src={logowhite} alt="rasm" />
             </div>
             <p className="logo-title">
               PROFESSIONAL TA'LIMNI <br /> RIVOJLANTIRISH <br /> INSTITUTI

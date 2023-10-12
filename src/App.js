@@ -18,6 +18,7 @@ import OquvAmaliyot from "./components/TalimStandartlari/OquvAmaliyot/oquvamaliy
 import FanOqituvchi from "./components/TalimStandartlari/FanOqituvchi/fanoqituvchi";
 import OquvMaterial from "./components/TalimStandartlari/OquvMateriallarToplami/oquvmateriallartoplami";
 import Contact from "./components/Contact/contact";
+import Yangilik from "./components/News/yangilik";
 function App() {
   return (
     <div className="App">
@@ -38,6 +39,7 @@ function App() {
         <Route path="fanoqituvchi" element={<FanOqituvchi />} />
         <Route path="oquvmaterial" element={<OquvMaterial />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="yangilik" element={<Yangilik />} />
         <Route path="/" element={<Navigate to={"/home"} />} />
         <Route path="" element={<h1>404 NOT FOUND</h1>} />
       </Routes>

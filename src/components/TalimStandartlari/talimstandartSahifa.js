@@ -13,9 +13,7 @@ function TalimstandartSahifa() {
   const [isActiveyonalish, setIsActiveyonalish] = useState(false);
   const [selectedyonalish, setIsSelectedyonalish] =
     useState("Ta’lim yo‘nalishi");
-  function handleBlur(e) {
-    console.log(e);
-  }
+
   return (
     <div className="talim">
       <TopNavbar />

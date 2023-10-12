@@ -29,7 +29,7 @@ function home() {
             </div>
             <div className="col-6">
               <div className="home_img">
-                <img src={Fon} />
+                <img src={Fon} alt="rasm" />
               </div>
             </div>
           </div>

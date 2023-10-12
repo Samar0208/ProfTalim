@@ -4,6 +4,7 @@ import Navbar from "../../Navbar/navbar";
 import Footer from "../../Footer/footerwhite";
 import { Link } from "react-router-dom";
 import telba from "../../../assets/images/telba.jpg";
+
 import "./fanoqituvchi.css";
 function fanoqituvchi() {
   return (

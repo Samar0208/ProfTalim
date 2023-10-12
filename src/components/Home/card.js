@@ -193,7 +193,7 @@ function card() {
             <div className="col-4">
               <div className="card">
                 <div className="card_img yellow">
-                  <img src={worls} />
+                  <img src={worls} alt="rasm" />
                 </div>
                 <h4>WorlsSkills</h4>
                 <span>
